@@ -1,0 +1,17 @@
+body {
+  background-color: #f6e9ee;
+  color: #382f33;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 350px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
